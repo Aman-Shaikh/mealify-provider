@@ -1,0 +1,37 @@
+{
+  "categories":[
+    {
+      "name": "Appetizers",
+      "subcategories": [
+        "Finger Foods",
+        "Dips & Spreads",
+        "Bruschetta",
+        "Spring Rolls",
+        "Stuffed Mushrooms",
+        "Deviled Eggs"
+      ]
+    },
+    {
+      "name": "Main Courses",
+      "subcategories": [
+        "Pasta",
+        "Rice Dishes",
+        "Pizza",
+        "Burgers",
+        "Curries",
+        "Stir-fries"
+      ]
+    },
+    {
+      "name": "Desserts",
+      "subcategories": [
+        "Cakes",
+        "Cookies",
+        "Ice Cream",
+        "Pies",
+        "Puddings",
+        "Pastries"
+      ]
+    }
+  ]
+}

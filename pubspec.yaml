@@ -1,0 +1,49 @@
+name: mealify_provider
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ## -- STATE MANAGEMENT
+  get: ^4.6.5
+  velocity_x: ^3.6.0
+
+  ## -- FIREBASE PACKAGES
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  firebase_storage: ^11.0.10
+  cloud_firestore: ^4.3.1
+  google_sign_in: ^5.4.4
+
+  ## -- ICON PACKAGES
+  cupertino_icons: ^1.0.2
+  line_awesome_flutter: ^2.0.0
+
+  ## -- FONTS PACKAGES
+  google_fonts: ^6.2.1
+
+  ## -- OTP TEXT FIELD PACKAGES
+  flutter_otp_text_field: ^1.1.1
+
+  ## -- image selection
+  image_picker: ^0.8.6+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/logo/
+    - lib/features/provider/models/category_model.json
